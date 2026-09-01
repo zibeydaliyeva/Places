@@ -29,9 +29,22 @@
 		A0CE9AA1304721E500B27562 /* PlacesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlacesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A0CE9D0E3047609100B27562 /* Exceptions for "Places" folder in "PlacesUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Utility/UIIdentifiers.swift,
+			);
+			target = A0CE9AA0304721E500B27562 /* PlacesUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A0CE9A8C304721E300B27562 /* Places */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A0CE9D0E3047609100B27562 /* Exceptions for "Places" folder in "PlacesUITests" target */,
+			);
 			path = Places;
 			sourceTree = "<group>";
 		};
