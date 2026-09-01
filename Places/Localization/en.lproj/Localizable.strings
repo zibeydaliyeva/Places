@@ -1,1 +1,12 @@
 "places_title" = "Places";
+
+"retry" = "Retry";
+"retry_hint" = "Tap to retry loading data";
+"location_not_found" = "Location not found";
+"error_occurred" = "An error has occurred!";
+"internet_offline" = "The Internet connection appears to be offline.";
+"incorrect_url" = "Request URL is incorrect!";
+"server_error" = "An error occurred while connecting to the server. Please try again later.";
+"empty_response" = "Response is empty!";
+"parse_error" = "Error occured while parsing data!";
+"search_location_error_invalid_input" = "Please provide a valid location name or coordinates.";
