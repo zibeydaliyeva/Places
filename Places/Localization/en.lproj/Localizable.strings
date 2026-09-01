@@ -5,9 +5,14 @@
 "tap_to_open" = "Tap to open the place on Wikipedia";
 "tap_to_find" = "Tap to find another place";
 
+"search_location" = "Search Location";
+"search_by_name" = "Search by name";
+"enter_name" = "Enter Location Name";
+"search_by_coordinate" = "Search by coordinate";
 "latitude" = "Latitude";
 "longitude" = "Longitude";
 "search" = "Search";
+"or" = "Or";
 
 "retry" = "Retry";
 "retry_hint" = "Tap to retry loading data";

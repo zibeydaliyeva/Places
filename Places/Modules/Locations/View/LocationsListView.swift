@@ -40,7 +40,9 @@ struct LocationsListView: View {
                 }
             })
             .sheet(isPresented: $isSearchPresented, content: {
-               
+                SearchLocationView(viewModel: SearchLocationViewModel()) { location in
+                    handleLocationSelection(for: location)
+                }
             })
             .task {
                 await viewModel.fetchLocations()
