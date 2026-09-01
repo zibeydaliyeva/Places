@@ -11,7 +11,12 @@ import SwiftUI
 struct PlacesApp: App {
     var body: some Scene {
         WindowGroup {
-            LocationsListView()
+            LocationsListView(
+                viewModel: LocationsViewModel(
+                    service: APIService(),
+                    deepLink: DeepLinkService()
+                )
+            )
         }
     }
 }
