@@ -34,6 +34,8 @@ Places/
 ├── Utility/              # UI tokens, shared helpers, identifiers
 └── Localization/
 
+```
+
 - **Views** are SwiftUI, kept declarative and free of business logic.
 - **ViewModels** are `@Observable` classes that own state and talk to services through protocols (`APIServiceProtocol`, `DeepLinkServiceProtocol`, `GeocodingServiceProtocol`), so they can be unit-tested with mocks/stubs instead of hitting the network or Core Location.
 - **Networking** goes through a small `APIRouter` (builds requests) + `APIService` (executes them and maps errors to a `NetworkError` enum with localized messages).
