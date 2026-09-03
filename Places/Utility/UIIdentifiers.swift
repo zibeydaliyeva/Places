@@ -17,8 +17,8 @@ enum UIIdentifiers {
         static let locationsList = "LocationListScreen.locationList"
         static let searchButton = "LocationListScreen.searchButton"
         
-        static func item(_ id: String) -> String {
-            "LocationListScreen.locationItem.\(id)"
+        static func item(_ id: UUID) -> String {
+            "LocationListScreen.locationItem.\(id.uuidString)"
         }
     }
     
